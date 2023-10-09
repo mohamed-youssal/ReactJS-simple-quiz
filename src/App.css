@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+.row{
+    height: 100vh;
+}
+
+.options{
+    background-color: rgb(180, 227, 212);
+    height: 7vh;
+    align-items: center;
+    
+}
+.options:hover{
+    background-color: rgb(116, 197, 199);
+    cursor: pointer;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2021/06/02/18/04/education-6305113_1280.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.h2{
+    color: darkred;
+    font-family: cursive;
+    animation-name: title-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+}
+
+.label_result{
+    font-family: cursive;
+    font-style: italic;
+    height: 80px;
+}
+
+.zone{
+    background-color:lightgray;
+}
+
+@keyframes title-animation {
+    0% {
+        transform: translateY(0);
+    }
+    
+    50% {
+        transform: translateY(-15px); /* Adjust the distance you want the text to move */
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+  }
+
+  .start{
+    background-color: cadetblue;
+  }
